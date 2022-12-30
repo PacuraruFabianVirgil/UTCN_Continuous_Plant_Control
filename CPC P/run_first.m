@@ -1,0 +1,9 @@
+k1 = 0.624;
+k2 = -0.015;
+k3 = -0.0006;
+k = 0.035;
+h = 20; %% trebuie verificate dimensiunile
+k11 = k2^2+4*(k-k3)*k1;
+k12 = 8*(k-k3)*h;
+k13 = 2*(k-k3);
+keta = 8*10^(-5);
