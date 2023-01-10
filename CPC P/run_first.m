@@ -25,3 +25,5 @@ Hr = minreal(1/Hp*Ho/(1-Ho))
 
 Pcomp = 1.935; % identify the proportional part of the controller
 Icomp = 0.008961; % identify the integral part of the controller
+
+kcompensare = (6.8-6.3)/(37.8-34.7);
